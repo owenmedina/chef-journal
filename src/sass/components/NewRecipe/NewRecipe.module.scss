@@ -1,0 +1,22 @@
+.new-recipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+
+  &__heading {
+    margin-bottom: 2rem;
+  }
+
+  &__body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    img {
+      height: 20rem;
+      position: relative;
+      top: 30%;
+      left: -20%;
+    }
+  }
+}

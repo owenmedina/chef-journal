@@ -1,0 +1,22 @@
+@import "../../abstracts";
+
+.recipe-form {
+  label {
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+
+  input {
+    border: none;
+    outline: none;
+    font-family: $font-primary;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+  }
+
+  .input-md {
+    width: 25rem;
+  }
+}
