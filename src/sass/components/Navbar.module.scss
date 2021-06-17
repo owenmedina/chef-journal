@@ -1,0 +1,24 @@
+@import "../abstracts";
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    font-family: $font-script;
+    font-size: 2.5rem;
+  }
+
+  &__links {
+    display: flex;
+    column-gap: 2rem;
+
+    list-style: none;
+
+    li {
+      cursor: pointer;
+    }
+  }
+}
